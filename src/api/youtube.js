@@ -1,6 +1,5 @@
 export default class Youtube {
     constructor(apiClient) {
-        console.log('apiClient', apiClient);
         this.apiClient = apiClient;
     }
 
