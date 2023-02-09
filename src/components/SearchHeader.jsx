@@ -20,7 +20,7 @@ export default function SearchHeader() {
     useEffect(() => {
         setSearch(keyword || '');
     }, [keyword]);
-
+    console.log('key', process.env.REACT_APP_YOUTUBE_API_KEY);
     return (
         <header className='w-full flex p-4 text-2xl border-b border-zinc-600 mb-4'>
             <Link to='/' className='flex items-center'>
